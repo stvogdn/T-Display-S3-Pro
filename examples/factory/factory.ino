@@ -194,7 +194,7 @@ void setup()
 
     const char *ntpServer1 = "pool.ntp.org";
     const char *ntpServer2 = "time.nist.gov";
-    const char *tz  = "CST-8";                  //timezone
+    const char *tz  = "UTC-8";                  //timezone
     configTzTime(tz, ntpServer1, ntpServer2);
 
 

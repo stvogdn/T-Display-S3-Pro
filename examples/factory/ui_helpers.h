@@ -110,6 +110,5 @@ void _ui_checked_set_text_value(lv_obj_t * trg, lv_obj_t * src, char * txt_on, c
 #endif
 
 #ifdef __cplusplus
-} extern "C"
+} /* extern "C" */
 #endif
-
